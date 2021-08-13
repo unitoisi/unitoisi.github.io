@@ -1,11 +1,77 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title></title>
-</head>
-<body>
-	<h1>Hello World</h1>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ISI Font Converter ✔</title>
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="google" content="notranslate" />
+        <meta name="author" content="Code G" />
+        <meta name="description" content="Online tool for Unicode to ISI font" />
+        <meta name="keywords" content="Sinhala Fonts, Unicode to isi, isi to unicode, unicode, design, developer, isi, isi fonts" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
+        <meta name="google-site-verification" content="jGufyhlIr8v6jRG5NMHtSUVtMfFXoHcxfi9j9ISefEE" />
+        <link href="https://unitoisi.github.io/assets/custom.css" rel="stylesheet" type="text/css" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204154578-1"></script>
+        <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-204154578-1');</script>
+        <link rel="apple-touch-icon" sizes="180x180" href="https://unitoisi.github.io/assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="https://unitoisi.github.io/assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="https://unitoisi.github.io/assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="https://unitoisi.github.io/assets/favicon/site.webmanifest">
+        <link rel="mask-icon" href="https://unitoisi.github.io/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="https://unitoisi.github.io/assets/favicon/favicon.ico">
+        <meta name="apple-mobile-web-app-title" content="ISI Font Converter">
+        <meta name="application-name" content="ISI Font Converter">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="https://unitoisi.github.io/assets/favicon/browserconfig.xml">
+        <meta name="theme-color" content="#309af0">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://unitoisi.github.io/">
+        <meta property="og:title" content="ISI Font Convertor ✔">
+        <meta property="og:description" content="Online tool for Unicode to ISI font. 💙💜">
+        <meta property="og:image" content="https://unitoisi.github.io/assets/img/uni2isi.png">
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://unitoisi.github.io/">
+        <meta property="twitter:title" content="ISI Font Convertor ✔">
+        <meta property="twitter:description" content="Online tool for Unicode to ISI font. 💙💜">
+        <meta property="twitter:image" content="https://unitoisi.github.io/assets/img/uni2isi.png">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row my-4">
+                <div class="col-md-8 offset-md-2 col-lg-8 offset-lg-2 bg-white p-4 border border border-1 rounded-3">
+                  <div class="text-center">
+                  <h1 class="sandarenufont"><span class="isitextheader">ඉසි</span> අක්‍ෂර පරිවර්තකය</h1>
+                </div>
+                  <hr>
+                  <form id="unicodetoisitypeForm">
+                    <div class="mb-3">
+                        <div class="form-floating">
+                            <textarea class="form-control AdBhashithafont uniosing" id="uniOsing" placeholder="Unicode or සිංglish" style="height: 200px;"></textarea>
+                            <label for="uniOsing">Unicode or සිංglish</label>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-floating">
+                            <textarea class="form-control isiAlakamanda" id="isiFontArea" placeholder="ISI Font" id="floatingTextarea2" style="height: 270px;" readonly="true"></textarea>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                      <button type="button" class="btn btn-dark rounded-pill" id="copyText">Copy isi font text</button>
+                    </div>
+                  </form>
+                </div>
+            </div>
+        </div>
 
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="https://unitoisi.github.io/assets/custom.js"></script>
+
+        <script type="text/javascript">
+        var _0xc3e3=["\x68\x72\x65\x66","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x75\x6E\x69\x74\x65\x78\x74","\x67\x65\x74","\x73\x65\x61\x72\x63\x68\x50\x61\x72\x61\x6D\x73","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x75\x6E\x69\x4F\x73\x69\x6E\x67","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x69\x73\x69\x46\x6F\x6E\x74\x41\x72\x65\x61","\x63\x6C\x69\x63\x6B","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x73\x65\x6C\x65\x63\x74","\x6B\x65\x79\x75\x70","\x76\x61\x6C\x75\x65","","\x3F\x75\x6E\x69\x74\x65\x78\x74\x3D","\x70\x75\x73\x68\x53\x74\x61\x74\x65","\x73\x63\x72\x6F\x6C\x6C\x54\x6F\x70","\x73\x63\x72\x6F\x6C\x6C\x48\x65\x69\x67\x68\x74","\x4A\x61\x6E","\x46\x65\x62","\x4D\x61\x72","\x41\x70\x72","\x4D\x61\x79","\x4A\x75\x6E","\x4A\x75\x6C","\x41\x75\x67","\x53\x65\x70","\x4F\x63\x74","\x4E\x6F\x76","\x44\x65\x63","\x67\x65\x74\x44\x61\x74\x65","\x20","\x67\x65\x74\x4D\x6F\x6E\x74\x68","\x2C\x20","\x67\x65\x74\x46\x75\x6C\x6C\x59\x65\x61\x72","\x74\x6F\x4C\x6F\x77\x65\x72\x43\x61\x73\x65","\x74\x6F\x4C\x6F\x63\x61\x6C\x65\x54\x69\x6D\x65\x53\x74\x72\x69\x6E\x67","\x20\x61\x74\x20","\x74\x65\x78\x74\x64\x61\x74\x61","\x67\x65\x74\x49\x74\x65\x6D","\x70\x61\x72\x73\x65","\x70\x75\x73\x68","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x73\x65\x74\x49\x74\x65\x6D","\x6F\x6E\x63\x6C\x69\x63\x6B","\x63\x6F\x70\x79\x54\x65\x78\x74","\x66\x6F\x63\x75\x73","\x63\x6F\x70\x79","\x65\x78\x65\x63\x43\x6F\x6D\x6D\x61\x6E\x64","\x72\x65\x61\x64\x79"];$(document)[_0xc3e3[50]](function(){var _0xea22x1=window[_0xc3e3[1]][_0xc3e3[0]];var _0xea22x2= new URL(_0xea22x1);var _0xea22x3=_0xea22x2[_0xc3e3[4]][_0xc3e3[3]](_0xc3e3[2]);if(_0xea22x3!= null){_0xea22x4(_0xea22x3)};function _0xea22x4(_0xea22x3){var _0xea22x5=unicodetoisitype(signtouni(_0xea22x3));document[_0xc3e3[7]](_0xc3e3[6])[_0xc3e3[5]]= _0xea22x3;document[_0xc3e3[7]](_0xc3e3[8])[_0xc3e3[5]]= _0xea22x5}document[_0xc3e3[7]](_0xc3e3[6])[_0xc3e3[10]](_0xc3e3[9],_0xea22x6);document[_0xc3e3[7]](_0xc3e3[6])[_0xc3e3[10]](_0xc3e3[11],_0xea22x6);document[_0xc3e3[7]](_0xc3e3[6])[_0xc3e3[10]](_0xc3e3[12],_0xea22x6);function _0xea22x6(){var _0xea22x7=document[_0xc3e3[7]](_0xc3e3[6])[_0xc3e3[13]];history[_0xc3e3[16]]({page:1},_0xc3e3[14],_0xc3e3[15]+ _0xea22x7);var _0xea22x8=signtouni(_0xea22x7);var _0xea22x5=unicodetoisitype(_0xea22x8);document[_0xc3e3[7]](_0xc3e3[8])[_0xc3e3[5]]= _0xea22x5;document[_0xc3e3[7]](_0xc3e3[8])[_0xc3e3[17]]= document[_0xc3e3[7]](_0xc3e3[8])[_0xc3e3[18]]}function _0xea22x9(_0xea22xa){var _0xea22xb= new Date();var _0xea22xc=[_0xc3e3[19],_0xc3e3[20],_0xc3e3[21],_0xc3e3[22],_0xc3e3[23],_0xc3e3[24],_0xc3e3[25],_0xc3e3[26],_0xc3e3[27],_0xc3e3[28],_0xc3e3[29],_0xc3e3[30]];var _0xea22xd=_0xea22xb[_0xc3e3[31]]()+ _0xc3e3[32]+ _0xea22xc[_0xea22xb[_0xc3e3[33]]()]+ _0xc3e3[34]+ _0xea22xb[_0xc3e3[35]]();var _0xea22xe=_0xea22xb[_0xc3e3[37]]()[_0xc3e3[36]]();var _0xea22xf=_0xea22xd+ _0xc3e3[38]+ _0xea22xe;let _0xea22x10=[];if(localStorage[_0xc3e3[40]](_0xc3e3[39])){_0xea22x10= JSON[_0xc3e3[41]](localStorage[_0xc3e3[40]](_0xc3e3[39]))};_0xea22x10[_0xc3e3[42]]({'\x74\x69\x6D\x65':_0xea22xf,text:_0xea22xa});localStorage[_0xc3e3[44]](_0xc3e3[39],JSON[_0xc3e3[43]](_0xea22x10))}document[_0xc3e3[7]](_0xc3e3[46])[_0xc3e3[45]]= function(_0xea22x11){var _0xea22x12=document[_0xc3e3[7]](_0xc3e3[8]);var _0xea22x7=document[_0xc3e3[7]](_0xc3e3[6])[_0xc3e3[13]];_0xea22x12[_0xc3e3[11]]();_0xea22x12[_0xc3e3[47]]();_0xea22x12[_0xc3e3[11]]();document[_0xc3e3[49]](_0xc3e3[48]);_0xea22x9(_0xea22x7)}})
+        </script>
+    </body>
 </html>

@@ -1,0 +1,72 @@
+body{
+    background-color: #fafafa !important;    
+}
+
+hr {
+  border-top: 1px dotted black;
+  color: white;
+}
+
+@font-face {
+  	font-family: 'AFSandarenu';
+	src: url(./font/AFSandarenu-Regular.eot);
+  	src: url(./font/AFSandarenu-Regular.eot?#iefix) format('embedded-opentype'),
+       url(./font/AFSandarenu-Regular.woff2) format('woff2'),
+       url(./font/AFSandarenu-Regular.woff) format('woff'),
+       url(./font/AFSandarenu-Regular.ttf) format('truetype'),
+       url(./font/AFSandarenu-Regular.svg#AFSandarenu-Regular) format('svg'),
+       url(./font/AFSandarenu-Regular.otf) format('otf');
+    font-weight: normal;
+  	font-style: normal;
+}
+
+@font-face {
+  font-family: 'AdBhashitha';
+  src: url(./font/AdBhashitha.eot);
+  src: url(./font/AdBhashitha.eot?#iefix) format('embedded-opentype'),
+       url(./font/AdBhashitha.otf) format('otf'),
+       url(./font/AdBhashitha.svg#AdBhashitha) format('svg'),
+       url(./font/AdBhashitha.woff2) format('woff2'),
+       url(./font/AdBhashitha.woff) format('woff'),
+       url(./font/AdBhashitha.ttf) format('truetype');
+  	font-style: normal;
+}
+
+@font-face {
+  font-family: 'IsiAlakamanda';
+  src: url(./font/IsiAlakamanda.eot);
+  src: url(./font/IsiAlakamanda.eot?#iefix) format('embedded-opentype'),
+       url(./font/IsiAlakamanda.svg#IsiAlakamanda) format('svg'),
+       url(./font/IsiAlakamanda.otf) format('otf'),
+       url(./font/IsiAlakamanda.woff) format('woff'),
+       url(./font/IsiAlakamanda.ttf) format('truetype'),
+       url(./font/IsiAlakamanda.woff2) format('woff2');
+}
+
+.sandarenufont{
+	font-family: 'AFSandarenu';
+    background: -webkit-linear-gradient(78deg, #002252, #34a5ff 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.AdBhashithafont{
+	font-family: 'AdBhashitha';
+	color: #131313;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.7 !important;
+}
+
+.isiAlakamanda{
+	font-family: 'IsiAlakamanda';
+   	font-style: normal;
+	font-size: 30px;
+
+}
+
+.isitextheader{
+	font-size: 50px;
+}
+
+
