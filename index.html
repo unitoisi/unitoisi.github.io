@@ -11,9 +11,12 @@
         <meta name="author" content="Code G" />
         <meta name="description" content="Online tool for Unicode to ISI font" />
         <meta name="keywords" content="Sinhala Fonts, Unicode to isi, isi to unicode, unicode, design, developer, isi, isi fonts" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous" />
         <meta name="google-site-verification" content="jGufyhlIr8v6jRG5NMHtSUVtMfFXoHcxfi9j9ISefEE" />
-        <link href="https://unitoisi.github.io/assets/custom.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css2?family=Maname&display=swap" rel="stylesheet">
+        <link href="https://unitoisi.github.io/assets/custom.css?v=1" rel="stylesheet" type="text/css" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-204154578-1"></script>
         <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-204154578-1');</script>
         <link rel="apple-touch-icon" sizes="180x180" href="https://unitoisi.github.io/assets/favicon/apple-touch-icon.png">
@@ -44,6 +47,9 @@
                 <div class="col-md-8 offset-md-2 col-lg-8 offset-lg-2 bg-white p-4 border border border-1 rounded-3">
                   <div class="text-center">
                   <h1 class="sandarenufont"><span class="isitextheader">ඉසි</span> අක්‍ෂර පරිවර්තකය</h1>
+                  <div class="font-akasa-banner p-2">
+                  <a href="https://font.akasa.lk/?utm_source=github" class="text-decoration-none font-akasa"><h5 class="maname-regular">සිංහල අකුරු ලබා ගැනීමට <u>Font Akasa</u> භාවිතා කරන්න 🔗</h5></a>
+                  </div>
                 </div>
                   <hr>
                   <form id="unicodetoisitypeForm">
@@ -60,6 +66,14 @@
                     </div>
                     <div class="text-center">
                       <button type="button" class="btn btn-dark rounded-pill" id="copyText">Copy isi font text</button>
+                    </div>
+                    <div class="text-end mt-4 px-2 footer-copyright">
+                        <span class="text-muted">
+                            Powered by 
+                            <a href="https://akasa.lk" target="_blank" class="text-decoration-none fw-bold akasalk">Akasa.lk</a> 
+                            <span class="mx-2 text-secondary">|</span> 
+                            <a href="https://font.akasa.lk" target="_blank" class="text-decoration-none fontakasalk">font.akasa.lk</a>
+                        </span>
                     </div>
                   </form>
                 </div>
