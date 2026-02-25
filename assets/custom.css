@@ -76,3 +76,29 @@ hr {
 [class~="isitextheader"] {
     font-size: 37.5pt;
 }
+.maname-regular {
+  font-family: "Maname", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-akasa-banner{
+    background-color: #f8f9fa;
+    border: 1px dashed #dee2e6;
+    border-radius: 5px;
+}
+
+.font-akasa{
+   color: #005599;
+}
+.footer-copyright{
+    opacity: 0.7;
+    font-size: 0.85rem;
+    letter-spacing: 0.3px;
+}
+.akasalk{
+    color: #6c757d;
+    border-bottom: 1px solid #dee2e6;
+}
+.fontakasalk{
+    color: #007bff;
+}
